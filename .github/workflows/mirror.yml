@@ -15,5 +15,5 @@ jobs:
 
       - name: Push to deploy account repo
         run: |
-          git remote add deploy https://${{ secrets.DEPLOY_PAT }}@github.com/Aabid523/ATS.git
+          git remote add deploy https://${{ secrets.DEPLOY_PAT }}@github.com/Aabid523/ATS_CHECKER.git
           git push deploy main --force
